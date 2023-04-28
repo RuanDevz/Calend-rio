@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    width: 344px;
+    height: 428px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius:16px;
+    padding: 32px;
+    -webkit-box-shadow: 0px 0px 33px -18px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 33px -18px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 33px -18px rgba(0,0,0,0.8);
+    }
+
+header{
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+header h1,span{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.week{
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    color:#9f9f9f ;
+}
+
+.days{
+    max-width: 300px;
+    max-height: 316px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.days span:hover{
+    background: #ece0fd;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.days span{
+    margin: 6px;
+    margin-left: 5px;
+    padding: 5px;
+}
